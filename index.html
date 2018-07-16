@@ -47,8 +47,6 @@ posObjs();</script>
 
 <script type="application/javascript">        
   function getIP(json) {
-    document.write("ip: ", json["ip"]);
-    
     $.post("https://auburn.edu/~bzl0048/tracking/index.php",
     {
       ip: json["ip"]
